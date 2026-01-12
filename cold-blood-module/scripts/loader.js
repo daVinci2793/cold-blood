@@ -7,6 +7,17 @@ Hooks.on("ready", () => {
     // Check if User is GM
     if (!game.user.isGM) return;
 
+    // 1. Register a dummy setting so the module appears in the Settings List
+    game.settings.register("cold-blood-module", "show-config", {
+        name: "Enable Import Menu",
+        hint: "Keeps the module visible in settings.",
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true
+    });
+
+    // 2. Register the Menu
     game.settings.registerMenu("cold-blood-module", "importConfig", {
         name: "Import Adventure Content",
         label: "Launch Importer",
@@ -22,12 +33,15 @@ class ColdBloodImporter extends FormApplication {
         return foundry.utils.mergeObject(super.defaultOptions, {
             id: "cold-blood-importer",
             title: "Cold Blood Adventure Importer",
-            template: "modules/cold-blood-module/scripts/importer-template.html", // We'll create this simple template
+            template: "modules/cold-blood-module/scripts/importer-template.html",
             width: 400,
             height: "auto",
-            closeOnSubmit: false,
-            submitOnChange: false
+            closeOnSubmit: true
         });
+    }
+
+    getData() {
+        return {};
     }
 
     async _updateObject(event, formData) {
