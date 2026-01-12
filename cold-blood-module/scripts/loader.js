@@ -3,48 +3,38 @@
  * Handles loading JSON content from the module directory and creating/updating documents.
  */
 
-Hooks.on("renderCompendiumDirectory", (app, html, data) => {
+Hooks.on("ready", () => {
     // Check if User is GM
     if (!game.user.isGM) return;
 
-    // Add Import Button to Compendium Sidebar
-    const button = $(`<button style="min-width: 96%; margin: 10px 2%;" type="button"><i class="fas fa-dungeon"></i> Import Cold Blood Adventure</button>`);
-
-    button.click(async () => {
-        new Dialog({
-            title: "Import Cold Blood Adventure",
-            content: `
-                <p>This will import the following content into your World:</p>
-                <ul>
-                    <li>Actor: Cryovain</li>
-                    <li>Actor: Grimjaw</li>
-                    <li>Actor: Water Weird</li>
-                    <li>Actor: Mira Vane</li>
-                    <li>Actor: Aldric Vane</li>
-                    <li>Journal: Cold Blood</li>
-                    <li>Scene: Cold Blood</li>
-                </ul>
-                <p>Existing documents with the same ID will be updated.</p>
-            `,
-            buttons: {
-                import: {
-                    label: "Import Content",
-                    icon: '<i class="fas fa-check"></i>',
-                    callback: () => importColdBloodContent()
-                },
-                cancel: {
-                    label: "Cancel",
-                    icon: '<i class="fas fa-times"></i>'
-                }
-            },
-            default: "import"
-        }).render(true);
+    game.settings.registerMenu("cold-blood-module", "importConfig", {
+        name: "Import Adventure Content",
+        label: "Launch Importer",
+        hint: "Import Actors, Journals, and Scenes for the Cold Blood adventure.",
+        icon: "fas fa-file-import",
+        type: ColdBloodImporter,
+        restricted: true
     });
-
-    // Append to footer
-    html.find(".directory-footer").append(button);
 });
 
+class ColdBloodImporter extends FormApplication {
+    static get defaultOptions() {
+        return foundry.utils.mergeObject(super.defaultOptions, {
+            id: "cold-blood-importer",
+            title: "Cold Blood Adventure Importer",
+            template: "modules/cold-blood-module/scripts/importer-template.html", // We'll create this simple template
+            width: 400,
+            height: "auto",
+            closeOnSubmit: false,
+            submitOnChange: false
+        });
+    }
+
+    async _updateObject(event, formData) {
+        // This is called on Submit
+        await importColdBloodContent();
+    }
+}
 
 async function importColdBloodContent() {
     ui.notifications.info("Cold Blood: Starting Import...");
