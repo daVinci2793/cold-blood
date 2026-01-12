@@ -1,0 +1,26 @@
+name: Release Module
+
+on:
+    push:
+        tags:
+            - "v*"
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Zip Module
+              run: |
+                  cd cold-blood-module
+                  zip -r ../module.zip ./*
+
+            - name: Create Release
+              uses: ncipollo/release-action@v1
+              with:
+                  allowUpdates: true
+                  artifacts: "module.zip,cold-blood-module/module.json"
+                  token: ${{ secrets.GITHUB_TOKEN }}
