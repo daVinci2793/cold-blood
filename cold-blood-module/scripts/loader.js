@@ -50,6 +50,8 @@ async function importColdBloodContent() {
     ui.notifications.info("Cold Blood: Starting Import...");
 
     const contentFiles = [
+        { path: "modules/cold-blood-module/content/item_sapphire_necklace.json", type: "Item" },
+        { path: "modules/cold-blood-module/content/item_cloak_of_elvenkind.json", type: "Item" },
         { path: "modules/cold-blood-module/content/cryovain.json", type: "Actor" },
         { path: "modules/cold-blood-module/content/grimjaw.json", type: "Actor" },
         { path: "modules/cold-blood-module/content/water_weird.json", type: "Actor" },
@@ -70,8 +72,12 @@ async function importColdBloodContent() {
             const cls = getDocumentClass(file.type);
             if (!cls) throw new Error(`Unknown Document Type: ${file.type}`);
 
+            // Get Collection
+            const collection = game.collections.get(cls.collectionName);
+            if (!collection) throw new Error(`Collection not found for ${file.type}`);
+
             // Check existence
-            const existing = game.collections.get(file.type).get(data._id);
+            const existing = collection.get(data._id);
 
             if (existing) {
                 await existing.update(data);
