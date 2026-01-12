@@ -1,0 +1,1209 @@
+{
+    "_id": "WaterWeird0001",
+    "name": "Water Weird",
+    "type": "npc",
+    "flags": {
+        "plutonium": {
+            "page": "bestiary.html",
+            "source": "XMM",
+            "hash": "water%20weird_xmm"
+        }
+    },
+    "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": {
+            "worldId": "davincis-workshop",
+            "uuid": "Actor.Af5mgfIjYKq8BV4R",
+            "coreVersion": "13.350",
+            "systemId": "dnd5e",
+            "systemVersion": "5.2.4"
+        },
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.4",
+        "createdTime": 1768101068194,
+        "modifiedTime": 1768101068697,
+        "lastModifiedBy": "JsPZe7zz4KUC0sTO"
+    },
+    "img": "modules/cold-blood-module/assets/water_weird.webp",
+    "system": {
+        "currency": {
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "abilities": {
+            "str": {
+                "value": 17,
+                "proficient": 0,
+                "max": null,
+                "bonuses": {
+                    "check": "",
+                    "save": "0"
+                },
+                "check": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                },
+                "save": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                }
+            },
+            "dex": {
+                "value": 16,
+                "proficient": 0,
+                "max": null,
+                "bonuses": {
+                    "check": "",
+                    "save": "0"
+                },
+                "check": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                },
+                "save": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                }
+            },
+            "con": {
+                "value": 13,
+                "proficient": 0,
+                "max": null,
+                "bonuses": {
+                    "check": "",
+                    "save": "0"
+                },
+                "check": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                },
+                "save": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                }
+            },
+            "int": {
+                "value": 11,
+                "proficient": 0,
+                "max": null,
+                "bonuses": {
+                    "check": "",
+                    "save": "0"
+                },
+                "check": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                },
+                "save": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                }
+            },
+            "wis": {
+                "value": 10,
+                "proficient": 0,
+                "max": null,
+                "bonuses": {
+                    "check": "",
+                    "save": "0"
+                },
+                "check": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                },
+                "save": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                }
+            },
+            "cha": {
+                "value": 10,
+                "proficient": 0,
+                "max": null,
+                "bonuses": {
+                    "check": "",
+                    "save": "0"
+                },
+                "check": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                },
+                "save": {
+                    "roll": {
+                        "min": null,
+                        "max": null,
+                        "mode": 0
+                    }
+                }
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "msak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rsak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "spell": {
+                "dc": ""
+            }
+        },
+        "skills": {
+            "acr": {
+                "ability": "dex",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "ani": {
+                "ability": "wis",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "arc": {
+                "ability": "int",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "ath": {
+                "ability": "str",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "dec": {
+                "ability": "cha",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "his": {
+                "ability": "int",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "ins": {
+                "ability": "wis",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "itm": {
+                "ability": "cha",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "inv": {
+                "ability": "int",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "med": {
+                "ability": "wis",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "nat": {
+                "ability": "int",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "prc": {
+                "ability": "wis",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "prf": {
+                "ability": "cha",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "per": {
+                "ability": "cha",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "rel": {
+                "ability": "int",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "slt": {
+                "ability": "dex",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "ste": {
+                "ability": "dex",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            },
+            "sur": {
+                "ability": "wis",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "value": 0,
+                "bonuses": {
+                    "check": "",
+                    "passive": ""
+                }
+            }
+        },
+        "tools": {},
+        "spells": {
+            "spell1": {
+                "value": 0,
+                "override": null
+            },
+            "spell2": {
+                "value": 0,
+                "override": null
+            },
+            "spell3": {
+                "value": 0,
+                "override": null
+            },
+            "spell4": {
+                "value": 0,
+                "override": null
+            },
+            "spell5": {
+                "value": 0,
+                "override": null
+            },
+            "spell6": {
+                "value": 0,
+                "override": null
+            },
+            "spell7": {
+                "value": 0,
+                "override": null
+            },
+            "spell8": {
+                "value": 0,
+                "override": null
+            },
+            "spell9": {
+                "value": 0,
+                "override": null
+            },
+            "pact": {
+                "value": 0
+            },
+            "spell0": {
+                "value": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "calc": "default",
+                "flat": null
+            },
+            "init": {
+                "ability": "dex",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "bonus": ""
+            },
+            "movement": {
+                "units": "ft",
+                "hover": false,
+                "ignoredDifficultTerrain": [],
+                "swim": "60",
+                "walk": "5",
+                "special": ""
+            },
+            "attunement": {
+                "max": 3
+            },
+            "senses": {
+                "darkvision": 0,
+                "blindsight": 30,
+                "tremorsense": 0,
+                "truesight": 0,
+                "units": "ft",
+                "special": ""
+            },
+            "spellcasting": "",
+            "exhaustion": 0,
+            "concentration": {
+                "ability": "",
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "bonuses": {
+                    "save": ""
+                },
+                "limit": 1
+            },
+            "loyalty": {},
+            "hd": {
+                "spent": 0
+            },
+            "hp": {
+                "max": 65,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 65,
+                "formula": "10d10 + 10"
+            },
+            "death": {
+                "roll": {
+                    "min": null,
+                    "max": null,
+                    "mode": 0
+                },
+                "success": 0,
+                "failure": 0,
+                "bonuses": {
+                    "save": ""
+                }
+            },
+            "price": {
+                "value": null,
+                "denomination": "gp"
+            },
+            "spell": {
+                "level": 0
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<div class=\"rd__b  rd__b--0\"><p><i>Servant of Primeval Magic</i></p><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Habitat:\"><span class=\"bold rd__list-item-name\">Habitat:</span> <a href=\"https://5e.tools/bestiary.html#blankhash,flstenvironment:underdark=1\">Underdark</a>, <a href=\"https://5e.tools/bestiary.html#blankhash,flstenvironment:urban=1\">Urban</a></p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Treasure:\"><span class=\"bold rd__list-item-name\">Treasure:</span> Any</p></li></ul><p>Serpentine nature spirits, water weirds protect pools, fountains, and magical bodies of water. In the water, these creatures are indistinguishable from the liquid surrounding them. Should their aquatic territory be disturbed, they rise as animate water spouts with vague snake- or dragon-like features. Often their appearance is enough to drive off foes, but if forced to fight, water weirds crush enemies within their fluid coils.</p><p>Water weirds might protect a site for generations and learn much about their surroundings. Some gain reputations as oracles and might respond to questions posed to them in Primordial. Since water weirds don't speak, they often communicate using spouts of water or objects submerged in their pools.</p><div class=\"rd__b-special rd__b-inset rd__b-inset--readaloud\"><span class=\"rd__h rd__h--2-inset rd__h--2-inset-no-name\"><span class=\"ve-flex-vh-center\"></span></span><div class=\"rd__quote\"><p class=\"rd__quote-line \">“<i>Rule 2: Before you drink from a fountain or pool, toss a copper coin into it. It's a small price to pay for your life!</i>”</p><p><span class=\"rd__quote-by\">— <i>X the Mystic's Rules of Dungeon Survival</i></span></p></div></div></div>",
+                "public": ""
+            },
+            "alignment": "Neutral",
+            "ideal": "",
+            "bond": "",
+            "flaw": "",
+            "race": null,
+            "type": {
+                "value": "elemental",
+                "subtype": ""
+            },
+            "habitat": {
+                "value": [
+                    {
+                        "type": "underdark"
+                    },
+                    {
+                        "type": "urban"
+                    }
+                ],
+                "custom": ""
+            },
+            "cr": 3,
+            "treasure": {
+                "value": [
+                    "any"
+                ]
+            }
+        },
+        "resources": {
+            "legact": {
+                "max": 0,
+                "spent": 0
+            },
+            "legres": {
+                "max": 0,
+                "spent": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": null,
+                "inside": false
+            }
+        },
+        "source": {
+            "revision": 1,
+            "rules": "2024",
+            "custom": "",
+            "book": "MM'25",
+            "page": "323",
+            "license": ""
+        },
+        "traits": {
+            "size": "lg",
+            "di": {
+                "value": [
+                    "poison"
+                ],
+                "custom": "",
+                "bypasses": []
+            },
+            "dr": {
+                "value": [
+                    "fire"
+                ],
+                "custom": "",
+                "bypasses": []
+            },
+            "dv": {
+                "value": [],
+                "custom": "",
+                "bypasses": []
+            },
+            "dm": {
+                "amount": {},
+                "bypasses": []
+            },
+            "ci": {
+                "value": [
+                    "exhaustion",
+                    "grappled",
+                    "paralyzed",
+                    "petrified",
+                    "poisoned",
+                    "prone",
+                    "restrained",
+                    "unconscious"
+                ],
+                "custom": ""
+            },
+            "languages": {
+                "value": [
+                    "primordial"
+                ],
+                "custom": "understands Primordial but can't speak",
+                "communication": {}
+            },
+            "important": false
+        }
+    },
+    "prototypeToken": {
+        "name": "Water Weird",
+        "displayName": 20,
+        "actorLink": false,
+        "width": 2,
+        "height": 2,
+        "texture": {
+            "src": "modules/cold-blood-module/assets/water_weird.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 2,
+            "scaleY": 2,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+        },
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": null
+        },
+        "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+                "type": null,
+                "speed": 5,
+                "intensity": 5,
+                "reverse": false
+            },
+            "darkness": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        "sight": {
+            "enabled": true,
+            "range": 30,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+        },
+        "detectionModes": [
+            {
+                "id": "blindsight",
+                "range": 30,
+                "enabled": true
+            }
+        ],
+        "occludable": {
+            "radius": 0
+        },
+        "ring": {
+            "enabled": true,
+            "colors": {
+                "ring": null,
+                "background": null
+            },
+            "effects": 1,
+            "subject": {
+                "scale": 2,
+                "texture": "https://raw.githubusercontent.com/5etools-mirror-1/foundry-token-subjects/master/img/bestiary/token-subjects/XMM/Water Weird.webp"
+            }
+        },
+        "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+    },
+    "items": [
+        {
+            "_id": "MLIQmfTg97jjVWaY",
+            "name": "Surge",
+            "type": "weapon",
+            "system": {
+                "source": {
+                    "custom": "",
+                    "book": "MM'25",
+                    "page": "323",
+                    "license": "",
+                    "rules": "2024",
+                    "revision": 1
+                },
+                "description": {
+                    "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Attack Roll:</i> [[/r 1d20+5]]{+5}, reach 10 ft. <i>Hit:</i> 13 ([[/damage 3d6 + 3 type=cold]]) damage. If the target is a Medium or smaller creature, it has the &amp;Reference[condition=Grappled] condition (escape DC <span class=\"rd__dc\">13</span>), and it has the &amp;Reference[condition=Restrained] condition until the grapple ends.</p></div>",
+                    "chat": ""
+                },
+                "range": {
+                    "value": 10,
+                    "long": null,
+                    "units": "ft"
+                },
+                "proficient": 1,
+                "uses": {
+                    "max": "",
+                    "spent": 0,
+                    "recovery": []
+                },
+                "type": {
+                    "value": "natural",
+                    "baseItem": ""
+                },
+                "properties": [],
+                "activities": {
+                    "OdAYLpOsGCnFOayG": {
+                        "_id": "OdAYLpOsGCnFOayG",
+                        "type": "attack",
+                        "name": "",
+                        "activation": {
+                            "type": "action",
+                            "value": 1,
+                            "override": false
+                        },
+                        "target": {
+                            "prompt": true,
+                            "template": {
+                                "contiguous": false,
+                                "units": "ft"
+                            },
+                            "affects": {
+                                "choice": false
+                            },
+                            "override": false
+                        },
+                        "attack": {
+                            "flat": false,
+                            "type": {
+                                "value": "melee",
+                                "classification": ""
+                            },
+                            "ability": "str",
+                            "bonus": "",
+                            "critical": {}
+                        },
+                        "damage": {
+                            "parts": [
+                                {
+                                    "types": [
+                                        "cold"
+                                    ],
+                                    "number": 3,
+                                    "denomination": 6,
+                                    "bonus": "@mod",
+                                    "scaling": {
+                                        "mode": "",
+                                        "number": 1
+                                    },
+                                    "custom": {
+                                        "enabled": false
+                                    }
+                                }
+                            ],
+                            "critical": {},
+                            "includeBase": true
+                        },
+                        "sort": 0,
+                        "consumption": {
+                            "scaling": {
+                                "allowed": false
+                            },
+                            "spellSlot": true,
+                            "targets": []
+                        },
+                        "description": {},
+                        "duration": {
+                            "units": "inst",
+                            "concentration": false,
+                            "override": false
+                        },
+                        "effects": [],
+                        "flags": {},
+                        "range": {
+                            "units": "self",
+                            "override": false
+                        },
+                        "uses": {
+                            "spent": 0,
+                            "recovery": []
+                        },
+                        "visibility": {
+                            "level": {},
+                            "requireAttunement": false,
+                            "requireIdentification": false,
+                            "requireMagic": false
+                        },
+                        "useConditionText": "",
+                        "useConditionReason": "",
+                        "effectConditionText": "",
+                        "macroData": {
+                            "name": "",
+                            "command": ""
+                        },
+                        "ignoreTraits": {
+                            "idi": false,
+                            "idr": false,
+                            "idv": false,
+                            "ida": false,
+                            "idm": false
+                        },
+                        "midiProperties": {
+                            "ignoreTraits": [],
+                            "triggeredActivityId": "none",
+                            "triggeredActivityConditionText": "",
+                            "triggeredActivityTargets": "targets",
+                            "triggeredActivityRollAs": "self",
+                            "autoConsume": false,
+                            "forceConsumeDialog": "default",
+                            "forceRollDialog": "default",
+                            "forceDamageDialog": "default",
+                            "confirmTargets": "default",
+                            "autoTargetType": "any",
+                            "autoTargetAction": "default",
+                            "automationOnly": false,
+                            "otherActivityCompatible": true,
+                            "otherActivityAsParentType": true,
+                            "identifier": "",
+                            "displayActivityName": false,
+                            "rollMode": "default",
+                            "chooseEffects": false,
+                            "toggleEffect": false,
+                            "ignoreFullCover": false,
+                            "removeChatButtons": "default",
+                            "magicEffect": false,
+                            "magicDamage": false,
+                            "noConcentrationCheck": false,
+                            "skipConcentrationCheck": false,
+                            "autoCEEffects": "default"
+                        },
+                        "isOverTimeFlag": false,
+                        "overTimeProperties": {
+                            "saveRemoves": true,
+                            "preRemoveConditionText": "",
+                            "postRemoveConditionText": ""
+                        },
+                        "otherActivityId": "",
+                        "otherActivityAsParentType": true,
+                        "attackMode": "oneHanded",
+                        "ammunition": "",
+                        "otherActivityUuid": "",
+                        "attackRollPerTarget": "default",
+                        "fumbleThreshold": 1
+                    }
+                },
+                "identifier": "surge",
+                "identified": true,
+                "unidentified": {
+                    "description": ""
+                },
+                "container": null,
+                "quantity": 1,
+                "weight": {
+                    "value": 0,
+                    "units": "lb"
+                },
+                "price": {
+                    "value": 0,
+                    "denomination": "gp"
+                },
+                "rarity": "",
+                "attunement": "",
+                "attuned": false,
+                "equipped": true,
+                "crew": {
+                    "value": []
+                },
+                "ammunition": {},
+                "armor": {},
+                "damage": {
+                    "base": {
+                        "types": [],
+                        "custom": {
+                            "enabled": false
+                        },
+                        "scaling": {
+                            "number": 1
+                        }
+                    },
+                    "versatile": {
+                        "types": [],
+                        "custom": {
+                            "enabled": false
+                        },
+                        "scaling": {
+                            "number": 1
+                        }
+                    }
+                }
+            },
+            "img": "modules/plutonium/media/icon/sword-brandish.svg",
+            "flags": {
+                "plutonium": {
+                    "page": "monsterAction",
+                    "source": "XMM",
+                    "hash": "surge_water%20weird_xmm_xmm"
+                },
+                "dnd5e": {
+                    "riders": {
+                        "activity": []
+                    }
+                }
+            },
+            "effects": [],
+            "_stats": {
+                "compendiumSource": null,
+                "duplicateSource": null,
+                "exportSource": null,
+                "coreVersion": "13.350",
+                "systemId": "dnd5e",
+                "systemVersion": "5.2.4",
+                "createdTime": 1768101068754,
+                "modifiedTime": 1768114122574,
+                "lastModifiedBy": "JsPZe7zz4KUC0sTO"
+            },
+            "folder": null,
+            "sort": 0,
+            "ownership": {
+                "default": 0
+            }
+        },
+        {
+            "_id": "gidJVpKAawhvA9RZ",
+            "name": "Invisible in Water",
+            "type": "feat",
+            "system": {
+                "source": {
+                    "custom": "",
+                    "book": "MM'25",
+                    "page": "323",
+                    "license": "",
+                    "rules": "2024",
+                    "revision": 1
+                },
+                "description": {
+                    "value": "<div class=\"rd__b  rd__b--3\"><p>The water weird has the &amp;Reference[condition=Invisible] condition while fully immersed in water.</p></div>",
+                    "chat": ""
+                },
+                "requirements": "",
+                "uses": {
+                    "max": "",
+                    "recovery": [],
+                    "spent": 0
+                },
+                "type": {
+                    "value": "monster",
+                    "subtype": ""
+                },
+                "properties": [],
+                "advancement": [],
+                "activities": {},
+                "identifier": "invisible-in-water",
+                "crewed": false,
+                "enchant": {},
+                "prerequisites": {
+                    "items": [],
+                    "repeatable": false
+                }
+            },
+            "img": "icons/commodities/materials/glass-orb.webp",
+            "flags": {
+                "plutonium": {
+                    "page": "monsterTrait",
+                    "source": "XMM",
+                    "hash": "invisible%20in%20water_water%20weird_xmm_xmm"
+                }
+            },
+            "effects": [],
+            "_stats": {
+                "compendiumSource": null,
+                "duplicateSource": null,
+                "exportSource": null,
+                "coreVersion": "13.350",
+                "systemId": "dnd5e",
+                "systemVersion": "5.2.4",
+                "createdTime": 1768101068815,
+                "modifiedTime": 1768101068815,
+                "lastModifiedBy": "JsPZe7zz4KUC0sTO"
+            },
+            "folder": null,
+            "sort": 0,
+            "ownership": {
+                "default": 0
+            }
+        },
+        {
+            "_id": "4BtNyNsbV17QgT4i",
+            "name": "Water Bound",
+            "type": "feat",
+            "system": {
+                "source": {
+                    "custom": "",
+                    "book": "MM'25",
+                    "page": "323",
+                    "license": "",
+                    "rules": "2024",
+                    "revision": 1
+                },
+                "description": {
+                    "value": "<div class=\"rd__b  rd__b--3\"><p>The water weird dies if it leaves the water to which it is bound or if that water is destroyed.</p></div>",
+                    "chat": ""
+                },
+                "requirements": "",
+                "uses": {
+                    "max": "",
+                    "recovery": [],
+                    "spent": 0
+                },
+                "type": {
+                    "value": "monster",
+                    "subtype": ""
+                },
+                "properties": [],
+                "advancement": [],
+                "activities": {},
+                "identifier": "water-bound",
+                "crewed": false,
+                "enchant": {},
+                "prerequisites": {
+                    "items": [],
+                    "repeatable": false
+                }
+            },
+            "img": "icons/magic/water/pseudopod-swirl-blue.webp",
+            "flags": {
+                "plutonium": {
+                    "page": "monsterTrait",
+                    "source": "XMM",
+                    "hash": "water%20bound_water%20weird_xmm_xmm"
+                }
+            },
+            "effects": [],
+            "_stats": {
+                "compendiumSource": null,
+                "duplicateSource": null,
+                "exportSource": null,
+                "coreVersion": "13.350",
+                "systemId": "dnd5e",
+                "systemVersion": "5.2.4",
+                "createdTime": 1768101068861,
+                "modifiedTime": 1768101068861,
+                "lastModifiedBy": "JsPZe7zz4KUC0sTO"
+            },
+            "folder": null,
+            "sort": 0,
+            "ownership": {
+                "default": 0
+            }
+        },
+        {
+            "type": "feat",
+            "name": "New Feature",
+            "_id": "aooeTFNy1kT4JLyu",
+            "img": "systems/dnd5e/icons/svg/items/feature.svg",
+            "system": {
+                "activities": {},
+                "uses": {
+                    "spent": 0,
+                    "recovery": []
+                },
+                "advancement": [],
+                "description": {
+                    "value": "",
+                    "chat": ""
+                },
+                "identifier": "new-feature",
+                "source": {
+                    "revision": 1,
+                    "rules": "2024"
+                },
+                "crewed": false,
+                "enchant": {},
+                "prerequisites": {
+                    "items": [],
+                    "repeatable": false
+                },
+                "properties": [],
+                "requirements": "",
+                "type": {
+                    "value": "monster",
+                    "subtype": ""
+                }
+            },
+            "effects": [],
+            "folder": null,
+            "sort": 0,
+            "flags": {
+                "dnd5e": {
+                    "riders": {
+                        "activity": []
+                    }
+                }
+            },
+            "_stats": {
+                "compendiumSource": null,
+                "duplicateSource": null,
+                "exportSource": null,
+                "coreVersion": "13.350",
+                "systemId": "dnd5e",
+                "systemVersion": "5.2.4",
+                "createdTime": 1768114066059,
+                "modifiedTime": 1768114083766,
+                "lastModifiedBy": "JsPZe7zz4KUC0sTO"
+            },
+            "ownership": {
+                "default": 0
+            }
+        }
+    ],
+    "effects": [],
+    "folder": "F1QR5tDBFXcaFrc2",
+    "ownership": {
+        "default": 0
+    }
+}

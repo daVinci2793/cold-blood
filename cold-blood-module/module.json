@@ -1,0 +1,56 @@
+{
+    "id": "cold-blood-module",
+    "title": "Cold Blood Adventure",
+    "description": "A module containing the Cold Blood adventure content.",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "authors": [
+        {
+            "name": "Tyler Berube",
+            "email": "tyler.berube@mail.yamighta.com"
+        }
+    ],
+    "scripts": [
+        "scripts/loader.js",
+        "scripts/rapids.js"
+    ],
+    "relationships": {
+        "requires": [
+            {
+                "id": "monks-active-tiles",
+                "type": "module"
+            },
+            {
+                "id": "enhanced-region-behavior",
+                "type": "module"
+            },
+            {
+                "id": "levels",
+                "type": "module"
+            },
+            {
+                "id": "lib-wrapper",
+                "type": "module"
+            },
+            {
+                "id": "wall-height",
+                "type": "module"
+            },
+            {
+                "id": "theripper-premium-hub",
+                "type": "module"
+            },
+            {
+                "id": "terrainmapper",
+                "type": "module"
+            }
+        ]
+    },
+    "packs": [],
+    "url": "",
+    "manifest": "",
+    "download": ""
+}

@@ -1,0 +1,86 @@
+{
+    "name": "Cloak of Elvenkind",
+    "type": "equipment",
+    "img": "icons/equipment/back/cloak-hooded-green.webp",
+    "system": {
+        "description": {
+            "value": "<p>While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak's color shifts to camouflage you.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "DMG",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 1,
+        "equipped": false,
+        "rarity": "uncommon",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "self"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "spell"
+        },
+        "armor": {
+            "value": null,
+            "type": "trinket",
+            "dex": null
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "speed": {
+            "value": null,
+            "conditions": ""
+        },
+        "strength": 0,
+        "stealth": true,
+        "proficient": false
+    },
+    "effects": [],
+    "flags": {},
+    "_id": "CloakElvenkind01"
+}

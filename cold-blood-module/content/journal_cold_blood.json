@@ -1,0 +1,231 @@
+{
+  "folder": null,
+  "name": "Cold Blood: The Merchant's Daughter",
+  "pages": [
+    {
+      "name": "Cold Blood: The Merchant's Daughter",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div data-roll-name-ancestor=\"Cold Blood: The Merchant's Daughter\" class=\"rd__b rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"1\"><span class=\"entry-title-inner\">Cold Blood: The Merchant's Daughter</span></h1><p>A young white dragon has claimed the high mountain pass as its hunting ground. When a merchant's daughter goes missing, heroes must brave rushing waters, treacherous cliffs, and a creature that lurks beneath the surface to save her from becoming the dragon's next meal.</p><p>This encounter is designed for a party of four to five characters of 6th or 7th level. It takes place in an alpine river crossing during late autumn or early winter, when the mountain winds howl and the water runs ice-cold from glacial melt.</p><div class=\"rd__b-special rd__b-inset\" data-roll-name-ancestor=\"A Note on Terrain\"><h4 class=\"rd__h rd__h--2-inset\" data-title-index=\"2\"><span class=\"entry-title-inner\">A Note on Terrain</span></h4><p>This encounter is designed around a specific battlemap featuring a river with multiple crossing points, cliff walls of varying heights, and limited entry/exit points. The tactical complexity comes from creatures that exploit each terrain feature—the dragon controls the air and northern ford, the troll ambushes from the western cliffs, and the water weird lurks in the deep water where escape is nearly impossible.</p></div><div class=\"rd__b-special rd__b-inset\" data-roll-name-ancestor=\"New DM Tips\"><h4 class=\"rd__h rd__h--2-inset\" data-title-index=\"3\"><span class=\"entry-title-inner\">For the DM</span></h4><p>This adventure is structured to help you handle <strong>Tier 2 Play</strong> (Levels 5-10). At this level, characters have powerful resources (Flight, Fireball, Revivify). The challenge here isn't just high HP monsters, but <strong>Terrain</strong> and <strong>Tactical Disadvantage</strong>. Read the <strong>DM Guide: Teaching Tier 2 Combat</strong> page at the end of this journal for specific advice!</p></div></div>",
+        "markdown": ""
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_id": "0000000000000001"
+    },
+    {
+      "name": "Adventure Hook",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div data-roll-name-ancestor=\"Adventure Hook\" class=\"rd__b rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"4\"><span class=\"entry-title-inner\">Adventure Hook</span></h1><div data-roll-name-ancestor=\"The Merchant's Daughter\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"5\"><span class=\"entry-title-inner\">The Merchant's Daughter</span></h2><p>In the village of Frosthollow, the party encounters <strong>Aldric Vane</strong>, a wealthy but desperate fur merchant.</p><div class=\"rd__b-special rd__b-inset rd__b-inset--readaloud\"><span class=\"rd__h rd__h--2-inset rd__h--2-inset-no-name\"></span><p>\"Three days ago, my daughter Mira took the high pass with two of my best guards. Stubborn girl. Only one guard returned, half-frozen and rambling about a white death from the sky.\" Aldric's eyes dart around nervously. \"She was wearing a... family heirloom. A heavy sapphire necklace. Please, bring her back. And the necklace. I'll pay 800 gold pieces, and grant you this <em>cloak of elvenkind</em>.\"</p></div><p>A successful [[/save ability=wis dc=14]] (&amp;Reference[skill=ins]) reveals Aldric is hiding something about the necklace—he seems almost as worried about the jewelry as he is about his daughter.</p></div><div data-roll-name-ancestor=\"What Really Happened\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"6\"><span class=\"entry-title-inner\">What Really Happened</span></h2><p><strong>Cryovain</strong> (Young White Dragon) attacked the group at the ford. He killed one guard and snatched Mira. Mira, realizing the dragon was distracted, dropped the glowing <strong>Sapphire Necklace</strong> into the river, hoping to hide it.</p><p>Big mistake. The necklace is a <em>Shard of the River King</em> (Elementals). Its presence in the water summoned and bound a <strong>Water Weird</strong> to the location. The Weird is now a mindless guardian of the deeps, attacking anything that enters. The Dragon and Troll don't know why the \"water spirit\" is there, but they use it as a trap!</p></div></div>",
+        "markdown": ""
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_id": "0000000000000002"
+    },
+    {
+      "name": "The Approach: Frozen Pass",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div data-roll-name-ancestor=\"The Approach: Frozen Pass\" class=\"rd__b rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"7\"><span class=\"entry-title-inner\">The Approach: Frozen Pass</span></h1><p>Before reaching the battlemap, the party must traverse the treacherous high pass as a storm closes in. This is a <strong>Skill Challenge</strong> designed to drain resources or HP before the boss fight.</p><div data-roll-name-ancestor=\"The Challenge\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"8\"><span class=\"entry-title-inner\">The Challenge</span></h2><p><strong>Goal:</strong> Navigate the cliffside path before the blizzard hits full force.<br><strong>Difficulty:</strong> The party needs <strong>4 Successes</strong> before <strong>3 Failures</strong>.<br><strong>DC:</strong> 14 (Level 6-7 standard)</p><p>Ask the players how they contribute. Examples:</p><ul class=\"rd__list\"><li class=\"rd__li\"><strong>Survival (Wis):</strong> finding the stable path under the snow.</li><li class=\"rd__li\"><strong>Athletics (Str):</strong> clearing a fallen boulder or helping an ally climb.</li><li class=\"rd__li\"><strong>Nature (Int):</strong> predicting wind gusts to time movement.</li><li class=\"rd__li\"><strong>Perception (Wis):</strong> spotting loose ice.</li><li class=\"rd__li\"><strong>Spells:</strong> Spending a spell slot of 2nd level or higher grants an automatic success.</li></ul></div><div data-roll-name-ancestor=\"Consequences\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"9\"><span class=\"entry-title-inner\">Consequences</span></h2><p><strong>Victory (4 Successes):</strong> The party arrives at the Scene safely, just ahead of the storm.</p><p><strong>Failure (3 Failures):</strong> The blizzard catches them on the exposed ridge. Each character takes [[/r 2d6]] cold damage and must succeed on a [[/save ability=con dc=14]] or gain <strong>1 Level of Exhaustion</strong>. They arrive at the Scene effectively \"Ambushed\" (enemies are alert).</p></div></div>",
+        "markdown": ""
+      },
+      "src": null,
+      "system": {},
+      "sort": 250000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_id": "0000000000000050"
+    },
+    {
+      "name": "The River Crossing",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div data-roll-name-ancestor=\"The River Crossing\" class=\"rd__b rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"10\"><span class=\"entry-title-inner\">The River Crossing</span></h1><p>The encounter takes place at a river valley carved between snow-dusted peaks. The terrain is designed to split the party, create difficult choices, and reward tactical thinking.</p><div data-roll-name-ancestor=\"General Features\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"11\"><span class=\"entry-title-inner\">General Features</span></h2><p><strong>Wind.</strong> Strong winds blow through the valley. Ranged weapon attacks across the river (a distance of 30-50 feet) are made with disadvantage.</p><p><strong>Terrain.</strong><ul class=\"rd__list\"><li class=\"rd__li\"><strong>Northern Ford:</strong> Safe crossing (Difficult Terrain).</li><li class=\"rd__li\"><strong>The Deeps (Trapped):</strong> 15-20ft deep. Cold water (Con DC 12 or -10ft speed). <strong>Water Weird Lair.</strong></li><li class=\"rd__li\"><strong>Rapids:</strong> Str Save DC 12 or swept 20ft downstream and Prone.</li><li class=\"rd__li\"><strong>Cliffs:</strong> Impassable from the water side (Smooth). Western cliff (18ft) offers high ground.</li></ul></p></div></div>",
+        "markdown": ""
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_id": "0000000000000003"
+    },
+    {
+      "name": "Map Key",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div data-roll-name-ancestor=\"Map Key\" class=\"rd__b rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"17\"><span class=\"entry-title-inner\">Map Key</span></h1><pre>                    NORTH\n    ╔═══════════════════════════════════════════╗\n    ║         [Dragon's Cave - Off Map]         ║\n    ║        ░░░░░░░░░░░░░░░░░░░░░              ║\n    ║       ░░░ NORTHERN FORD ░░░░░   (D)       ║\n    ║        ░░░░░ (safe) ░░░░░░░░   perched    ║\n    ║  ██      ░░░░░░░░░░░░░░░░░                ║\n    ║  ██ 18ft                                  ║\n    ║  ██        ▓▓▓▓▓▓▓                        ║\n    ║ (T)        ▓ 9ft ▓  ≋≋≋≋≋≋≋≋              ║\n    ║  ██        ▓▓▓▓▓▓▓ ≋ DEEPS ≋              ║\n    ║  ██          ║    ≋≋(WW)≋≋≋       ▓▓▓    ║\n    ║  ██          ║     ≋≋≋≋≋≋≋        ▓4-9ft ║\n    ║            CLIFF   ≋≋≋≋≋≋                 ║\n    ║            BLOCKS  ≈≈≈≈≈≈≈≈               ║\n    ║            EXIT    ≈ RAPIDS ≈  DC12       ║\n    ║                    ≈≈≈≈≈≈≈≈               ║\n    ║               ▒▒▒▒▒▒▒▒▒▒▒▒                ║\n    ║              ▒▒ SOUTHERN ▒▒       ☺ Party ║\n    ║              ▒▒▒ FORD ▒▒▒▒                ║\n    ╚═══════════════════════════════════════════╝\n\n    LEGEND:\n    ░░░ = Northern ford (safe)     ██ = 18ft cliff\n    ≋≋≋ = Deeps (dangerous)        ▓▓ = 9ft cliff  \n    ≈≈≈ = Rapids (DC 12)           ▒▒ = Southern ford\n    ║   = Impassable from water\n    \n    D = Young White Dragon    T = Troll (Grimjaw)\n    WW = Water Weird          ☺ = Party Entry</pre></div>",
+        "markdown": ""
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_id": "0000000000000004"
+    },
+    {
+      "name": "Creatures Strategy",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div data-roll-name-ancestor=\"Creatures\" class=\"rd__b rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"18\"><span class=\"entry-title-inner\">Creatures Strategy</span></h1><div data-roll-name-ancestor=\"Cryovain\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"19\"><span class=\"entry-title-inner\">Cryovain (Young White Dragon)</span></h2><p><strong>Role:</strong> Artillery / Harasser. <br><strong>Tactics:</strong> Starts perched high. Uses <strong>Cold Breath</strong> on clustered groups, then flies out of reach (Verticality!). If Breath is recharging, he uses Hit-and-Run bite attacks. He is smart enough to stay out of melee range of the Paladin or Barbarian.</p></div><div data-roll-name-ancestor=\"Grimjaw\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"21\"><span class=\"entry-title-inner\">Grimjaw (Troll)</span></h2><p><strong>Role:</strong> Brute / Controller. <br><strong>Tactics:</strong> Hides behind the Western Cliff. Ambush! He doesn't just attack; he uses the <strong>Shove</strong> action to push players off the 9ft cliff into the <strong>Deeps</strong>. He knows the \"Water Spirit\" lives there.</p></div><div data-roll-name-ancestor=\"Water Weird\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"23\"><span class=\"entry-title-inner\">Water Weird</span></h2><p><strong>Role:</strong> Trap. <br><strong>Tactics:</strong> Bound to the <strong>Sapphire Necklace</strong> at the bottom of the Deeps. It attacks anyone entering the water. <br><strong>Twist:</strong> If a player dives to the bottom (Athletics DC 12) and retrieves the necklace (Investigation DC 15), they can use an Action to command the Weird to <strong>\"Attack the Dragon!\"</strong> or <strong>\"Let us pass!\"</strong></p></div></div>",
+        "markdown": ""
+      },
+      "src": null,
+      "system": {},
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_id": "0000000000000005"
+    },
+    {
+      "name": "Running the Encounter",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div data-roll-name-ancestor=\"Running the Encounter\" class=\"rd__b rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"25\"><span class=\"entry-title-inner\">Running the Encounter</span></h1><p><strong>Arrival Text:</strong> \"The wind hits you first—a bitter, howling thing. Before you spreads a river valley... It feels like a place where things come to die.\"</p><div data-roll-name-ancestor=\"The Death Spiral\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"33\"><span class=\"entry-title-inner\">The Tactical Trap</span></h2><p>This encounter is designed to teach players (and DMs) about positioning. <br>1. Dragon baits players forward.<br>2. Troll shoves them into the Deeps.<br>3. Water Weird grapples and drowns them.<br>4. Rapids sweep survivors downstream, splitting the party.</p><p><strong>Counter-Play:</strong> Intelligent players will use the terrain too! Ranged attacks from cover, setting the Troll on fire to panic him, or diving for the Necklace to turn the Water Weird into an ally.</p></div></div>",
+        "markdown": ""
+      },
+      "src": null,
+      "system": {},
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_id": "0000000000000006"
+    },
+    {
+      "name": "Conclusion",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div data-roll-name-ancestor=\"Conclusion\" class=\"rd__b rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"38\"><span class=\"entry-title-inner\">Conclusion</span></h1><p><strong>Victory:</strong> Saving Mira earns 800gp and the <em>cloak of elvenkind</em>. If they return the Necklace, Aldric reveals it is indeed magical (a minor elemental summoning focus) and lets them keep it as a bonus reward!</p><p><strong>Failure:</strong> If they retreat, Mira dies. The Dragon becomes a recurring villain in the region.</p></div>",
+        "markdown": ""
+      },
+      "src": null,
+      "system": {},
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_id": "0000000000000009"
+    },
+    {
+      "name": "Appendix: Quick Reference",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div data-roll-name-ancestor=\"Appendix: Quick Reference\" class=\"rd__b rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"49\"><span class=\"entry-title-inner\">Appendix: Quick Reference</span></h1><table class=\"w-100 rd__table stripe-odd-table\"><thead><tr><th class=\"ve-col-4\">Terrain</th><th class=\"ve-col-8\">Effect</th></tr></thead><tbody><tr><td>Northern Ford</td><td>Safe crossing, half movement</td></tr><tr><td>The Deeps</td><td>[[/save ability=con dc=12]] or -10 ft speed; water weird territory</td></tr><tr><td>Rapids</td><td>[[/save ability=str dc=12]] (&amp;Reference[skill=ath]) or swept 20 ft + prone</td></tr><tr><td>Southern Ford</td><td>Safe crossing, half movement</td></tr><tr><td>Climb from water (west)</td><td>Impossible without magic</td></tr></tbody></table></div>",
+        "markdown": ""
+      },
+      "src": null,
+      "system": {},
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_id": "0000000000000011"
+    },
+    {
+      "name": "DM Guide: Teaching Tier 2 Combat",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div data-roll-name-ancestor=\"DM Guide: Teaching Tier 2 Combat\" class=\"rd__b rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"100\"><span class=\"entry-title-inner\">DM Guide: Teaching Tier 2 Combat</span></h1><p>Running high-level D&D combat can be daunting. Here is why this encounter is built this way:</p><div data-roll-name-ancestor=\"1. Action Economy & The Boss\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"101\"><span class=\"entry-title-inner\">1. Action Economy & The Boss</span></h2><p>A solo Dragon usually dies in 1 round against Level 6 PC's because the party has 4-5 actions for every 1 of the Dragon's. <br><strong>The Fix:</strong> We added \"Minions\" (The Troll and Water Weird). They force the party to split their attention/attacks. <strong>Lesson:</strong> Never run a solo boss without Legendary Actions or Minions.</p></div><div data-roll-name-ancestor=\"2. The Environment is an Enemy\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"102\"><span class=\"entry-title-inner\">2. The Environment is an Enemy</span></h2><p>Damage isn't the only threat. The <strong>Rapids</strong> separate the Healer from the Tank. The <strong>Cliffs</strong> prevent the Paladin from reaching the Dragon. <br><strong>Lesson:</strong> Use terrain to disrupt the players' \"standard operating procedure\".</p></div><div data-roll-name-ancestor=\"3. Drain Resources First\" class=\"rd__b rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"103\"><span class=\"entry-title-inner\">3. Drain Resources First</span></h2><p>The \"Frozen Pass\" skill challenge exists to make players use spell slots or take damage <em>before</em> initiative is rolled. <br><strong>Lesson:</strong> A fully rested party is unstoppable. Chip away at them first.</p></div></div>",
+        "markdown": ""
+      },
+      "src": null,
+      "system": {},
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_id": "0000000000000099"
+    }
+  ],
+  "categories": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768112110483,
+    "modifiedTime": 1768112110483,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+    "name": "Grimjaw",
+    "_id": "GrimjawTroll0001",
+    "type": "npc",
+    "img": "modules/cold-blood-module/assets/grimjaw.webp",
+    "system": {
+        "abilities": {
+            "str": {
+                "value": 18,
+                "mod": 4
+            },
+            "dex": {
+                "value": 13,
+                "mod": 1
+            },
+            "con": {
+                "value": 20,
+                "mod": 5
+            },
+            "int": {
+                "value": 7,
+                "mod": -2
+            },
+            "wis": {
+                "value": 9,
+                "mod": -1
+            },
+            "cha": {
+                "value": 7,
+                "mod": -2
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": 15,
+                "calc": "natural"
+            },
+            "hp": {
+                "value": 84,
+                "max": 84,
+                "formula": "8d10 + 40"
+            },
+            "speed": {
+                "value": "30 ft."
+            }
+        },
+        "details": {
+            "cr": 5,
+            "alignment": "CE",
+            "type": {
+                "value": "giant"
+            },
+            "biography": {
+                "value": "<p>A frost-touched troll that lurks behind the western cliffs.</p>"
+            }
+        },
+        "traits": {
+            "di": {
+                "value": []
+            },
+            "dr": {
+                "value": []
+            },
+            "dv": {
+                "value": []
+            },
+            "ci": {
+                "value": []
+            },
+            "languages": {
+                "value": [
+                    "giant"
+                ]
+            }
+        }
+    },
+    "prototypeToken": {
+        "name": "Grimjaw",
+        "texture": {
+            "src": "modules/cold-blood-module/assets/grimjaw.webp"
+        }
+    },
+    "items": [],
+    "flags": {}
+}

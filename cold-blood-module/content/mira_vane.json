@@ -1,0 +1,35 @@
+{
+  "name": "Mira Vane",
+  "_id": "MiraVaneNPC00001",
+  "type": "npc",
+  "img": "modules/cold-blood-module/assets/mira.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 10 },
+      "dex": { "value": 12 },
+      "con": { "value": 10 },
+      "int": { "value": 12 },
+      "wis": { "value": 14 },
+      "cha": { "value": 13 }
+    },
+    "attributes": {
+      "ac": { "value": 10 },
+      "hp": { "value": 4, "max": 4 }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The merchant's daughter. Stubborn, brave, but currently in way over her head.</p>"
+      },
+      "cr": 0,
+      "alignment": "NG"
+    }
+  },
+  "prototypeToken": {
+    "name": "Mira Vane",
+    "texture": {
+      "src": "modules/cold-blood-module/assets/mira.webp"
+    }
+  },
+  "items": [],
+  "flags": {}
+}

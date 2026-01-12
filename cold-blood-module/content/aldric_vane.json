@@ -1,0 +1,60 @@
+{
+    "name": "Aldric Vane",
+    "type": "npc",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "value": 10,
+                "mod": 0
+            },
+            "dex": {
+                "value": 10,
+                "mod": 0
+            },
+            "con": {
+                "value": 10,
+                "mod": 0
+            },
+            "int": {
+                "value": 12,
+                "mod": 1
+            },
+            "wis": {
+                "value": 12,
+                "mod": 1
+            },
+            "cha": {
+                "value": 14,
+                "mod": 2
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": 10,
+                "calc": "default"
+            },
+            "hp": {
+                "value": 4,
+                "max": 4,
+                "formula": "1d8"
+            },
+            "speed": {
+                "value": "30 ft."
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<p>A wealthy but desperate fur merchant from Frosthollow. His daughter Mira has gone missing in the high pass.</p>"
+            },
+            "cr": 0,
+            "alignment": "LN",
+            "type": {
+                "value": "humanoid",
+                "subtype": "human"
+            }
+        }
+    },
+    "items": [],
+    "flags": {}
+}

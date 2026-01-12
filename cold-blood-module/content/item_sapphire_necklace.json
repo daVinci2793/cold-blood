@@ -1,0 +1,23 @@
+{
+    "name": "Sapphire Necklace",
+    "type": "loot",
+    "img": "icons/equipment/neck/necklace-simple-gem-blue.webp",
+    "system": {
+        "description": {
+            "value": "<p>A heavy sapphire necklace. It hums with a faint, rhythmic vibration, like the pulse of a distant tide.</p><p><strong>Secret:</strong> This necklace is a <em>Shard of the River King</em>, an ancient elemental summoning focus. When placed in natural water, it summons and binds a Water Weird to the location.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "Cold Blood Module",
+        "quantity": 1,
+        "weight": 1,
+        "price": 800,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "rare",
+        "identified": true
+    },
+    "effects": [],
+    "flags": {},
+    "_id": "SapphireNecklz01"
+}
