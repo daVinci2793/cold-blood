@@ -76,9 +76,19 @@ async function importColdBloodContent() {
             const cls = getDocumentClass(file.type);
             if (!cls) throw new Error(`Unknown Document Type: ${file.type}`);
 
-            // Get Collection
-            const collection = game.collections.get(cls.collectionName);
-            if (!collection) throw new Error(`Collection not found for ${file.type}`);
+            // Get Collection (Robust Lookup)
+            const collectionName = cls.metadata?.collection || cls.collectionName;
+            let collection = game.collections.get(collectionName);
+            
+            // Fallbacks
+            if (!collection) {
+                if (file.type === "Actor") collection = game.actors;
+                else if (file.type === "Item") collection = game.items;
+                else if (file.type === "Scene") collection = game.scenes;
+                else if (file.type === "JournalEntry") collection = game.journal;
+            }
+
+            if (!collection) throw new Error(`Collection not found for ${file.type} (looked for: ${collectionName})`);
 
             // Check existence
             const existing = collection.get(data._id);
