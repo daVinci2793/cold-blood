@@ -1,0 +1,96 @@
+{
+  "name": "Cloak of Elvenkind",
+  "type": "equipment",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "DMG 2024",
+      "page": "244",
+      "license": "",
+      "rules": "2024",
+      "revision": 1
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p>While you wear this cloak, Wisdom (&amp;Reference[skill=Perception]) checks made to perceive you have @variantrule[Disadvantage|XPHB], and you have @variantrule[Advantage|XPHB] on Dexterity (&amp;Reference[skill=Stealth]) checks.</p></div>",
+      "chat": ""
+    },
+    "proficient": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "attuned": true,
+    "identified": true,
+    "equipped": true,
+    "rarity": "uncommon",
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "attunement": "required",
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "strength": null,
+    "activities": {},
+    "identifier": "cloak-of-elvenkind",
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "crew": {
+      "value": []
+    }
+  },
+  "img": "https://cdn.5e.tools/2024/img/items/XDMG/Cloak%20of%20Elvenkind.webp",
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "XDMG",
+      "hash": "cloak%20of%20elvenkind_xdmg",
+      "propDroppable": "item"
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    }
+  },
+  "effects": [],
+  "folder": "mwBPXtfdjBX1at6W",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "davincis-workshop",
+      "uuid": "Item.yRwtGR2RfNXq22jx",
+      "coreVersion": "13.350",
+      "systemId": "dnd5e",
+      "systemVersion": "5.2.4"
+    },
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1767914895067,
+    "modifiedTime": 1768292725551,
+    "lastModifiedBy": "JsPZe7zz4KUC0sTO"
+  },
+  "ownership": {
+    "default": 0
+  }
+}
