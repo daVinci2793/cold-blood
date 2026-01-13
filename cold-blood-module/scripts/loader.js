@@ -62,7 +62,8 @@ async function importColdBloodContent() {
         { path: "modules/cold-blood-module/content/mira_vane.json", type: "Actor" },
         { path: "modules/cold-blood-module/content/aldric_vane.json", type: "Actor" },
         { path: "modules/cold-blood-module/content/journal_cold_blood.json", type: "JournalEntry" },
-        { path: "modules/cold-blood-module/content/scene_cold_blood.json", type: "Scene" }
+        { path: "modules/cold-blood-module/content/scene_cold_blood.json", type: "Scene" },
+        { path: "modules/cold-blood-module/content/scene_frozen_pass.json", type: "Scene" }
     ];
 
     for (const file of contentFiles) {

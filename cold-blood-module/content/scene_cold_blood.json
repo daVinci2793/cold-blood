@@ -4,7 +4,7 @@
   "navigation": true,
   "navOrder": 0,
   "background": {
-    "src": "modules/cold-blood-module/assets/scene-background.jpg",
+    "src": "modules/cold-blood-module/assets/battlemap_river.jpg",
     "anchorX": 0,
     "anchorY": 0,
     "offsetX": 0,
@@ -18,7 +18,7 @@
   },
   "foreground": null,
   "foregroundElevation": 999,
-  "thumb": "modules/cold-blood-module/assets/scene-thumb.webp",
+  "thumb": null,
   "width": 3500,
   "height": 3500,
   "padding": 0.05,
@@ -90,7 +90,7 @@
       "width": 2,
       "height": 2,
       "texture": {
-        "src": "modules/cold-blood-module/assets/grimjaw.webp",
+        "src": "modules/cold-blood-module/assets/grimjaw.png",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -318,7 +318,7 @@
       "width": 2,
       "height": 2,
       "texture": {
-        "src": "modules/cold-blood-module/assets/cryovain.webp",
+        "src": "https://cdn.5e.tools/2024/img/bestiary/XMM/White%20Dragon.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -396,7 +396,7 @@
         "effects": 1,
         "subject": {
           "scale": 2,
-          "texture": "modules/cold-blood-module/assets/cryovain.webp"
+          "texture": "https://cdn.5e.tools/2024/img/bestiary/XMM/White%20Dragon.webp"
         }
       },
       "turnMarker": {
@@ -407,7 +407,7 @@
       },
       "movementAction": "fly",
       "flags": {},
-      "actorId": "dIP5N1lj8onffNln",
+      "actorId": "CryoDragonNPC001",
       "hidden": true,
       "sort": 4,
       "shape": 0,

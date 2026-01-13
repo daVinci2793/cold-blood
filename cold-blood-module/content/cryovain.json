@@ -3,7 +3,7 @@
   "_id": "CryoDragonNPC001",
   "name": "Cryovain",
   "type": "npc",
-  "img": "modules/cold-blood-module/assets/cryovain.webp",
+  "img": "https://cdn.5e.tools/2024/img/bestiary/XMM/White%20Dragon.webp",
   "system": {
     "currency": {
       "pp": 0,
@@ -637,7 +637,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "modules/cold-blood-module/assets/cryovain.webp",
+      "src": "https://cdn.5e.tools/2024/img/bestiary/XMM/White%20Dragon.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

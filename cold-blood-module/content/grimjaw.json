@@ -2,7 +2,7 @@
     "name": "Grimjaw",
     "_id": "GrimjawTroll0001",
     "type": "npc",
-    "img": "modules/cold-blood-module/assets/grimjaw.webp",
+    "img": "modules/cold-blood-module/assets/grimjaw.png",
     "system": {
         "abilities": {
             "str": {
@@ -77,7 +77,7 @@
     "prototypeToken": {
         "name": "Grimjaw",
         "texture": {
-            "src": "modules/cold-blood-module/assets/grimjaw.webp"
+            "src": "modules/cold-blood-module/assets/grimjaw.png"
         }
     },
     "items": [],

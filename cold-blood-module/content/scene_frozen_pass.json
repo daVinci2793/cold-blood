@@ -1,0 +1,322 @@
+{
+  "folder": "YUzpL8KubRpJJNXN",
+  "name": "Frozen Pass",
+  "_id": "FrozenPassScene1",
+  "navigation": true,
+  "navOrder": 0,
+  "background": {
+    "src": "modules/cold-blood-module/assets/frozen-pass.png",
+    "anchorX": 0,
+    "anchorY": 0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "fit": "fill",
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "tint": "#ffffff",
+    "alphaThreshold": 0
+  },
+  "foreground": null,
+  "foregroundElevation": 999,
+  "thumb": null,
+  "width": 3500,
+  "height": 3500,
+  "padding": 0.05,
+  "initial": {
+    "x": 3650,
+    "y": 2716,
+    "scale": 1.535761877958901
+  },
+  "backgroundColor": "#121212",
+  "grid": {
+    "type": 4,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 2,
+    "color": "#121212",
+    "alpha": 0.35,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": "#212a37"
+    }
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": true,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "regions": [],
+  "templates": [],
+  "tiles": [
+    {
+      "x": 2454,
+      "y": 1750,
+      "width": 375,
+      "height": 900,
+      "rotation": 0,
+      "elevation": 0,
+      "sort": 0,
+      "flags": {
+        "monks-active-tiles": {
+          "name": "Hidden Trigger for WW",
+          "active": true,
+          "record": true,
+          "restriction": "all",
+          "controlled": "all",
+          "trigger": [
+            "enter"
+          ],
+          "allowpaused": false,
+          "usealpha": false,
+          "pointer": false,
+          "vision": true,
+          "pertoken": true,
+          "minrequired": null,
+          "cooldown": 180,
+          "chance": 70,
+          "fileindex": 0,
+          "actions": [
+            {
+              "action": "create",
+              "data": {
+                "entity": {
+                  "id": "Actor.Af5mgfIjYKq8BV4R",
+                  "name": "Water Weird"
+                },
+                "collection": "actors",
+                "location": {
+                  "id": "tile",
+                  "name": "This Tile"
+                },
+                "position": "random",
+                "activetoken": true,
+                "snap": true,
+                "invisible": true,
+                "avoidtokens": true
+              },
+              "id": "1YCLBdQEvHJMhsgZ"
+            }
+          ],
+          "files": [],
+          "history": {
+            "FFQqf8UAmEQkXHQ2": {
+              "tokenid": "FFQqf8UAmEQkXHQ2",
+              "triggered": [
+                {
+                  "id": "QZ6jV8AVGIIdRz5a",
+                  "who": "JsPZe7zz4KUC0sTO",
+                  "how": "enter",
+                  "when": 1768108914823
+                }
+              ]
+            },
+            "Ikt2dNpRxUv6oHV3": {
+              "tokenid": "Ikt2dNpRxUv6oHV3",
+              "triggered": [
+                {
+                  "id": "Kf6hgYXF9ZGXS16r",
+                  "who": "KwuBQe4TRqpp0PVU",
+                  "how": "enter",
+                  "when": 1768109256281
+                }
+              ]
+            }
+          }
+        },
+        "betterroofs": {
+          "brMode": false,
+          "occlusionLinkId": "",
+          "occlusionLinkSource": false
+        },
+        "terrainmapper": {
+          "isFloor": false,
+          "trimAlphaBorder": true,
+          "testHoles": false,
+          "alphaThreshold": 0.75
+        },
+        "levels": {
+          "rangeTop": null,
+          "showIfAbove": false,
+          "showAboveRange": null,
+          "noCollision": false,
+          "noFogHide": false,
+          "isBasement": false,
+          "allWallBlockSight": true
+        }
+      },
+      "texture": {
+        "src": null,
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "rotation": 0,
+        "alphaThreshold": 0.75
+      },
+      "alpha": 1,
+      "occlusion": {
+        "mode": 0,
+        "alpha": 0
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "_id": "TBMNvDAt1mPL30v5",
+      "hidden": false,
+      "locked": false,
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      }
+    }
+  ],
+  "walls": [],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "journalEntryPage": null,
+  "weather": "",
+  "flags": {
+    "levels": {
+      "backgroundElevation": 0,
+      "lightMasking": false,
+      "weatherElevation": null,
+      "sceneLevels": [
+        [
+          "9",
+          "20",
+          "Hills"
+        ],
+        [
+          "0",
+          "9",
+          "Ground"
+        ],
+        [
+          "-5",
+          "0",
+          "Shallows"
+        ],
+        [
+          "-9",
+          "-5",
+          "Deeps"
+        ]
+      ]
+    },
+    "multi-token-edit": {
+      "blackBars": true
+    },
+    "wall-height": {
+      "advancedVision": true
+    },
+    "fxmaster": {
+      "effects": {
+        "core_snow": {
+          "type": "snow",
+          "options": {
+            "belowTokens": false,
+            "tint": {
+              "apply": false,
+              "value": "#FFFFFF"
+            },
+            "scale": 1,
+            "direction": 65,
+            "speed": 1,
+            "lifetime": 1,
+            "density": 0.5,
+            "alpha": 1
+          }
+        },
+        "core_fog": {
+          "type": "fog",
+          "options": {
+            "belowTokens": false,
+            "tint": {
+              "apply": false,
+              "value": "#FFFFFF"
+            },
+            "scale": 1,
+            "speed": 1,
+            "lifetime": 1,
+            "density": 0.06,
+            "alpha": 1
+          }
+        }
+      }
+    },
+    "terrainmapper": {
+      "backgroundElevation": 0,
+      "constrainElevation": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "davincis-workshop",
+      "uuid": "Scene.zdgtrQfWZnbQrEcW",
+      "coreVersion": "13.350",
+      "systemId": "dnd5e",
+      "systemVersion": "5.2.4"
+    },
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768085598632,
+    "modifiedTime": 1768108390478,
+    "lastModifiedBy": "JsPZe7zz4KUC0sTO"
+  },
+  "navName": "",
+  "ownership": {
+    "default": 0
+  }
+}
