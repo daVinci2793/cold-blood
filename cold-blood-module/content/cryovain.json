@@ -1,8 +1,30 @@
 {
-  "folder": "GQ0B4tis0LmNImXR",
-  "_id": "CryoDragonNPC001",
   "name": "Cryovain",
   "type": "npc",
+  "flags": {
+    "plutonium": {
+      "page": "bestiary.html",
+      "source": "XMM",
+      "hash": "young%20white%20dragon_xmm"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "davincis-workshop",
+      "uuid": "Actor.IVUiQRp7RO8UTB35",
+      "coreVersion": "13.350",
+      "systemId": "dnd5e",
+      "systemVersion": "5.2.4"
+    },
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1768326780342,
+    "modifiedTime": 1768326780556,
+    "lastModifiedBy": "JsPZe7zz4KUC0sTO"
+  },
   "img": "https://cdn.5e.tools/2024/img/bestiary/XMM/White%20Dragon.webp",
   "system": {
     "currency": {
@@ -542,7 +564,7 @@
     },
     "details": {
       "biography": {
-        "value": "",
+        "value": "<div class=\"rd__b  rd__b--0\"><p>Young white dragons defend their hunting grounds from rivals. In some cases, kobolds and groups of humanoids might offer food and treasure to young white dragons, attempting to keep the dragons satiated and less likely to prey on their communities.</p></div><hr class=\"rd__hr rd__hr--section\" /><div data-roll-name-ancestor=\"White Dragons\" class=\"rd__b  rd__b--0\"><h1 class=\"rd__h rd__h--0\" data-title-index=\"1\"> <span class=\"entry-title-inner\">White Dragons</span></h1> <p><i>Dragons of Cold and Cruelty</i></p><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Habitat:\"><span class=\"bold rd__list-item-name\">Habitat:</span> <a href=\"https://5e.tools/bestiary.html#blankhash,flstenvironment:arctic=1\">Arctic</a></p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Treasure:\"><span class=\"bold rd__list-item-name\">Treasure:</span> @table[Random Magic Items - Arcana|XDMG|Arcana]</p></li></ul><p>Among the most primal chromatic dragons, white dragons prioritize survival over all. Life is harsh and uncertain in the arctic expanses, glacial heights, and frozen seas where these dragons dwell. White dragons fiercely protect their territories, scouring the frigid regions for food and evidence of trespassers. Most white dragons ignore the plots of smaller creatures and other dragons, concerning themselves only with their own survival.</p><p>White dragons create lairs to defend themselves from other deadly arctic creatures and from dangerous natural conditions. Within these shelters, white dragons hoard testaments to their superiority, such as monstrous skulls, the gear of defeated rivals, and curiosities that capture their interest. To protect such treasure, white dragons coax ice to form over their hoards or sink their wealth in frigid pools. For white dragons, each piece of treasure embodies a victory—the details of which inflate as these dragons age.</p><div data-roll-name-ancestor=\"White Dragon Lairs\" class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"2\"> <span class=\"entry-title-inner\">White Dragon Lairs</span></h2> <p>White dragons brood in bitterly cold lairs clawed from stone and ice.</p></div></div>",
         "public": ""
       },
       "alignment": "Chaotic Evil",
@@ -631,7 +653,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Non-Player Character",
+    "name": "Cryovain",
     "displayName": 20,
     "actorLink": false,
     "width": 2,
@@ -732,7 +754,7 @@
   },
   "items": [
     {
-      "_id": "ZN7VN9pG4oXvFBhi",
+      "_id": "0Jnbx573bluhyYWr",
       "name": "Multiattack",
       "type": "feat",
       "system": {
@@ -745,7 +767,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>Non-Player Character makes three Rend attacks.</p></div>",
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The dragon makes three Rend attacks.</p></div>",
           "chat": ""
         },
         "requirements": "",
@@ -761,8 +783,8 @@
         "properties": [],
         "advancement": [],
         "activities": {
-          "X5jYyiBkpmYUdErm": {
-            "_id": "X5jYyiBkpmYUdErm",
+          "9jjgeVNZ4B5zAm4F": {
+            "_id": "9jjgeVNZ4B5zAm4F",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -891,8 +913,8 @@
         "coreVersion": "13.350",
         "systemId": "dnd5e",
         "systemVersion": "5.2.4",
-        "createdTime": 1768157243253,
-        "modifiedTime": 1768157243253,
+        "createdTime": 1768326780667,
+        "modifiedTime": 1768326780667,
         "lastModifiedBy": "JsPZe7zz4KUC0sTO"
       },
       "folder": null,
@@ -902,7 +924,7 @@
       }
     },
     {
-      "_id": "pLQJlVThjeQvqPbQ",
+      "_id": "Q6j2X1tBIITEyPX7",
       "name": "Rend",
       "type": "weapon",
       "system": {
@@ -935,8 +957,8 @@
         },
         "properties": [],
         "activities": {
-          "Xx4cJDyJ6MOuly8W": {
-            "_id": "Xx4cJDyJ6MOuly8W",
+          "pP5aQBsQYH5MlSPc": {
+            "_id": "pP5aQBsQYH5MlSPc",
             "type": "attack",
             "name": "",
             "activation": {
@@ -1150,8 +1172,8 @@
         "coreVersion": "13.350",
         "systemId": "dnd5e",
         "systemVersion": "5.2.4",
-        "createdTime": 1768157249132,
-        "modifiedTime": 1768157249132,
+        "createdTime": 1768326786343,
+        "modifiedTime": 1768326786343,
         "lastModifiedBy": "JsPZe7zz4KUC0sTO"
       },
       "folder": null,
@@ -1161,7 +1183,7 @@
       }
     },
     {
-      "_id": "l2EBJ1zpSBVFWD9B",
+      "_id": "n3DTgd0yWIzzDE2g",
       "name": "Cold Breath",
       "type": "feat",
       "system": {
@@ -1196,8 +1218,8 @@
         "properties": [],
         "advancement": [],
         "activities": {
-          "z6fvvQR8wYEAz50E": {
-            "_id": "z6fvvQR8wYEAz50E",
+          "otNYpxtdbyFXyBZz": {
+            "_id": "otNYpxtdbyFXyBZz",
             "type": "save",
             "name": "",
             "activation": {
@@ -1371,8 +1393,8 @@
         "coreVersion": "13.350",
         "systemId": "dnd5e",
         "systemVersion": "5.2.4",
-        "createdTime": 1768157249161,
-        "modifiedTime": 1768157249161,
+        "createdTime": 1768326786392,
+        "modifiedTime": 1768326786392,
         "lastModifiedBy": "JsPZe7zz4KUC0sTO"
       },
       "folder": null,
@@ -1382,7 +1404,7 @@
       }
     },
     {
-      "_id": "wEDY1JzPYfr8tebu",
+      "_id": "CWTTXjppxVhkJTun",
       "name": "Ice Walk",
       "type": "feat",
       "system": {
@@ -1395,7 +1417,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>Non-Player Character can move across and climb icy surfaces without needing to make an ability check. Additionally, @variantrule[Difficult Terrain|XPHB] composed of ice or snow doesn't cost it extra movement.</p></div>",
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, @variantrule[Difficult Terrain|XPHB] composed of ice or snow doesn't cost it extra movement.</p></div>",
           "chat": ""
         },
         "requirements": "",
@@ -1435,8 +1457,8 @@
         "coreVersion": "13.350",
         "systemId": "dnd5e",
         "systemVersion": "5.2.4",
-        "createdTime": 1768157249182,
-        "modifiedTime": 1768157249182,
+        "createdTime": 1768326786426,
+        "modifiedTime": 1768326786426,
         "lastModifiedBy": "JsPZe7zz4KUC0sTO"
       },
       "folder": null,
@@ -1447,31 +1469,9 @@
     }
   ],
   "effects": [],
-  "flags": {
-    "plutonium": {
-      "page": "bestiary.html",
-      "source": "XMM",
-      "hash": "young%20white%20dragon_xmm"
-    }
-  },
-  "_stats": {
-    "compendiumSource": "Actor.8THZG9waIDeWuBQK",
-    "duplicateSource": null,
-    "exportSource": {
-      "worldId": "davincis-workshop",
-      "uuid": "Actor.8THZG9waIDeWuBQK",
-      "coreVersion": "13.350",
-      "systemId": "dnd5e",
-      "systemVersion": "5.2.4"
-    },
-    "coreVersion": "13.350",
-    "systemId": "dnd5e",
-    "systemVersion": "5.2.4",
-    "createdTime": 1768157208686,
-    "modifiedTime": 1768157286868,
-    "lastModifiedBy": "JsPZe7zz4KUC0sTO"
-  },
+  "folder": "F1QR5tDBFXcaFrc2",
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "CryoDragonNPC001"
 }
