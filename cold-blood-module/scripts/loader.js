@@ -72,23 +72,18 @@ async function importColdBloodContent() {
             if (!response.ok) throw new Error(`File not found: ${file.path}`);
             const data = await response.json();
 
-            // Direct Mapping for Core Types (Most reliable)
-            let collection;
-            if (file.type === "Actor") collection = game.actors;
-            else if (file.type === "Item") collection = game.items;
-            else if (file.type === "Scene") collection = game.scenes;
-            else if (file.type === "JournalEntry") collection = game.journal;
+            // 1. Get Document Class
+            const cls = getDocumentClass(file.type);
+            if (!cls) throw new Error(`Unknown Document Type: ${file.type}`);
+
+            // 2. Find Collection dynamically by matching documentName
+            // This works even if the collection name is non-standard (e.g. "Items", "items", etc.)
+            const collection = game.collections.find(c => c.documentName === file.type);
 
             if (!collection) {
-                // Fallback to class lookup for standard kinds
-                const cls = getDocumentClass(file.type);
-                if (cls) {
-                     const collectionName = cls.metadata?.collection || cls.collectionName;
-                     collection = game.collections.get(collectionName);
-                }
+                console.error(`[Cold Blood] Debug: Could not find collection for type '${file.type}'. Available types:`, game.collections.map(c => c.documentName));
+                throw new Error(`Collection not found for ${file.type}`);
             }
-
-            if (!collection) throw new Error(`Collection not found for ${file.type}. Ensure the document type is correct.`);
 
             // Check existence
             const existing = collection.get(data._id);

@@ -2,7 +2,7 @@
     "id": "cold-blood-module",
     "title": "Cold Blood Adventure",
     "description": "A module containing the Cold Blood adventure content.",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "compatibility": {
         "minimum": "13",
         "verified": "13"
